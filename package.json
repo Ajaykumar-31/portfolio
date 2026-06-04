@@ -1,0 +1,11 @@
+{
+  "name": "portfolio1",
+  "version": "1.0.0",
+  "description": "Ajay Kumar R - MERN Stack Developer Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx vite",
+    "build": "echo 'No build step required' && exit 0",
+    "start": "npx vite"
+  }
+}
