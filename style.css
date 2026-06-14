@@ -1065,6 +1065,12 @@ a {
   transition: all 0.25s ease;
 }
 
+@media (min-width: 601px) {
+  .contact-method-card:last-child:nth-child(odd) {
+    grid-column: span 2;
+  }
+}
+
 .contact-method-card:hover {
   transform: translateY(-2px);
   box-shadow: 0 10px 25px var(--shadow-hover);
